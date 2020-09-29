@@ -1,0 +1,141 @@
+
+/*-----------------------------Universella regler------------------------*/
+body {
+    /*background: #fde6d2;*/
+    background: #ebdbbc;
+    margin: 0;
+    padding: 0;
+}
+
+p, li {
+    font-family: 'Didact Gothic', 'sans-serif';
+    font-size: 1.1em;
+    color: black;
+}
+
+/*font-family: 'Roboto','Didact Gothic', sans-serif;*/
+
+h1, h2, h3 {
+    font-family: 'Parisienne', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    width: 100%;
+    margin: 60px 0;
+    height: 2px;
+    color: #950f21;
+    border-width: 0;
+    background-color: #950f21;
+}
+
+.wrapper h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+a {
+    color: #4f5861;
+    text-decoration-line: underline;
+}
+
+a:hover, a:active {
+    color: #4f5861;
+    text-decoration-line: underline;
+    font-style: italic;
+}
+
+
+/*--------------------------------Navbar-----------------------------*/
+.countdown {
+    background-image: url("wedimg/cogsbackground.jpg");
+    padding-bottom: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    background-color: #950f21;
+    overflow: hidden;
+    display: flex;
+    flex-direction: left;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+nav ul li {
+    flex-grow: 1;
+}
+  
+nav ul li a {
+    display: block;
+    padding: 16px 32px;
+    background-color: #950f21;
+    color: white;
+    text-decoration-line: none;
+    text-align: center;
+  }
+
+nav ul li a:hover, nav ul li a:active {
+    color: white;
+    text-decoration-line: underline;
+    background-color: #c5152c;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.current {
+    color: white;
+    text-decoration-line: none;
+    background-color: #c5152c;
+}
+
+
+/*------------------------Startsida---------------------------------*/
+
+
+/*------------------Hitta hit och bo------------------------------------------*/
+.locationpic {
+    height: 240px;
+    border-radius: 18px;
+    margin: 18px;
+}
+
+.hitta {
+    display: flex;
+    flex-direction: row;
+}
+
+/*------------------Kontakt------------------------------------------*/
+.profilbild {
+    height: 80px;
+    border-radius: 50%;
+    margin: 18px;
+}
+
+.kontakter ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+}
