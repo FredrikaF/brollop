@@ -1,0 +1,4 @@
+(function(s,o,g,r,a,m,t){t=new Date(),g+='?v='+t.getFullYear()+t.getMonth()+t.getDate()+t.getHours(),
+a=s.createElement(o),m=s.getElementsByTagName(o)[0];if(s.getElementById(r)){return;}
+a.src = g;a.id = r;m.parentNode.insertBefore(a,m);
+})(document,'script','https://cdn.logwork.com/widget/countdown_api.min.js', 'countdown-timer');

@@ -1,0 +1,57 @@
+
+body {
+    background: #f8eed7a8;
+    margin: 0;
+    padding: 0;
+}
+
+p, li {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+h1, h2, h3 {
+    font-family: 'Parisienne', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: auto;
+}
+
+.countdown {
+    background-image: url("wedimg/cogsbakgrund.jpg");
+    padding-bottom: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #950f21;
+    overflow: hidden;
+    display: flex;
+    flex-direction: left;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+nav ul li a {
+    display: block;
+    padding: 16px 32px;
+    background-color: #950f21;
+    color: white;
+    text-decoration-line: none;
+  }
+
+
