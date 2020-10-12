@@ -109,6 +109,12 @@ nav ul li a:hover, nav ul li a:active {
 
 /*------------------------Startsida---------------------------------*/
 
+.mustang {
+    float: right;
+    height: 200px;
+    border-radius: 18px;
+    margin: 18px;
+}
 
 /*------------------Hitta hit och bo------------------------------------------*/
 .locationpic {
